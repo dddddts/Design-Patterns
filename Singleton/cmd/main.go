@@ -4,6 +4,6 @@ import (
 	"DesignPatterns/Singleton"
 )
 func main(){
-	s := &Singleton.SingletonStruct{}
+	s := Singleton.GetSimpleInstance()
 	s.Show()
 }
